@@ -4,8 +4,6 @@ const locators = {
     USER: 'input[name="username"]',
     PASSWORD: 'input[name="password"]',
     BTN_ENTRAR: '.btn-lg',
-    EXPECT_TEXT_NOT_LOGGED: '.btn-link',
-    EXPECT_TEXT_LOGGED: '.steps'
   },
 
   LOGOFF: {
