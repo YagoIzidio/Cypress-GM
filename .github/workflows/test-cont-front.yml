@@ -26,4 +26,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run test:record ${{ secrets.TEST_CYPRESS_RECORD_KEY }}
+      - run: npm run test ${{ secrets.TEST_CYPRESS_RECORD_KEY }}
