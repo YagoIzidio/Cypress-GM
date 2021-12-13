@@ -4,8 +4,7 @@ Cypress.Commands.add('login', (perfil) => {
 
   const { userName, passWord } = Cypress.env(perfil)
   
-  cy.visit('https://chevroletdigital-dev.accurate.com.br/')
-  cy.get(loc.LOGIN.EXPECT_TEXT_NOT_LOGGED).should('contain', 'Esqueci minha senha')
+  cy.visit('https://chevroletdigital-dev.accurate.com.br/').url().should('include','/login')
   cy.get(loc.LOGIN.USER).type(userName)
   cy.get(loc.LOGIN.PASSWORD).type(passWord)
   cy.get(loc.LOGIN.BTN_ENTRAR).click()
