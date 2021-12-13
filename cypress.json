@@ -5,6 +5,10 @@
   "viewportWidth":1700,
   "defaultCommandTimeout":9000,
 
+  "environment": {
+    "CYPRESS_CACHE_FOLDER": "~/.cache/Cypress"
+  },
+
  
   "env": {
       "zipCode": "64308-970",
