@@ -26,4 +26,4 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: CYPRESS_CACHE_FOLDER=./tmp/Cypress yarn install
-      - run: CYPRESS_CACHE_FOLDER=./tmp/Cypress npx cy run [--params]
+      - run: CYPRESS_CACHE_FOLDER=./tmp/Cypress npx test
