@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Dec 14 11:27:03 BRT 2021","Tue Dec 14 11:27:32 BRT 2021","29227","","Login com o perfil Dealer e fazendo Logoff","","","","Login and logoff",""
-"broken","Tue Dec 14 11:26:40 BRT 2021","Tue Dec 14 11:26:40 BRT 2021","0","","features/chd/perfil/dealer/gerenteF&I/login.feature","","","","Oops...we found an error preparing this test file: features/chd/perfil/dealer/gerenteF&I/login.feature",""
-"broken","Tue Dec 14 11:33:17 BRT 2021","Tue Dec 14 11:33:17 BRT 2021","0","","features/chd/perfil/dealer/gerenteF&I/login.feature","","","","Oops...we found an error preparing this test file: features/chd/perfil/dealer/gerenteF&I/login.feature",""

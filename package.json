@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
-    "cypress:open": "cypress open",
-    "cy:allure:run": "--config video=false --env allure=true"
+    "cy:log": "cypress run",
+    "cy:nav": "cypress open"
   },
   "keywords": [],
   "author": "",
