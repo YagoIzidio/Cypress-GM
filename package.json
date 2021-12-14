@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cy:allure:run": "--config video=false --env allure=true"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
     "cypress-cucumber-preprocessor": "^4.3.0"
   },
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.23.0",
     "cypress-xpath": "^1.6.2"
   }
 }
