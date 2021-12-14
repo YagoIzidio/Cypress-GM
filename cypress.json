@@ -4,7 +4,8 @@
   "viewportHeight":1025,
   "viewportWidth":1700,
   "defaultCommandTimeout":9000,
- 
+    "projectId": "auuh4j",
+
   "env": {
       "zipCode": "64308-970",
       "vehicleModel": "360",
