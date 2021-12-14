@@ -1,0 +1,744 @@
+{
+  "uid" : "bb888fd55530ac98",
+  "name" : "Login and logoff",
+  "fullName" : "Login and logoff",
+  "historyId" : "d37fd47ac9c2a3e5335be2f712f21e7f",
+  "time" : {
+    "start" : 1639492023143,
+    "stop" : 1639492052370,
+    "duration" : 29227
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "login (\"userDealer\")",
+      "time" : {
+        "start" : 1639492023362
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "visit https://chevroletdigital-dev.accurate.com.br/",
+        "time" : {
+          "start" : 1639492023367,
+          "stop" : 1639492034796,
+          "duration" : 11429
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get https://dpm.demdex.net/id?d_visid_ver=5.0.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=88CA58E65A265B560A495E1E@AdobeOrg&d_nsid=0&ts=1639492026357",
+        "time" : {
+          "start" : 1639492034794,
+          "stop" : 1639492034795,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://dpm.demdex.net/id?d_visid_ver=5.0.1&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=88CA58E65A265B560A495E1E%40AdobeOrg&d_nsid=0&ts=1639492026357",
+        "time" : {
+          "start" : 1639492034795,
+          "stop" : 1639492034795,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://5wtgdfkzo6.execute-api.us-east-2.amazonaws.com/dev/v1/applications/modules",
+        "time" : {
+          "start" : 1639492034795,
+          "stop" : 1639492034795,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1639492034796,
+          "stop" : 1639492035102,
+          "duration" : 306
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **https://chevroletdigital-dev.accurate.com.br/login** to include **/login**",
+        "time" : {
+          "start" : 1639492035102,
+          "stop" : 1639492035102,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://chevroletdigital-dev.accurate.com.br/login"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get input[name=\"username\"]",
+        "time" : {
+          "start" : 1639492035103,
+          "stop" : 1639492035409,
+          "duration" : 306
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type QA.GM.ACCURATE@GMAIL.COM",
+        "time" : {
+          "start" : 1639492035409,
+          "stop" : 1639492037938,
+          "duration" : 2529
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get input[name=\"password\"]",
+        "time" : {
+          "start" : 1639492037938,
+          "stop" : 1639492037963,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type Qwerasdf123456789!",
+        "time" : {
+          "start" : 1639492037963,
+          "stop" : 1639492039238,
+          "duration" : 1275
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get .btn-lg",
+        "time" : {
+          "start" : 1639492039238,
+          "stop" : 1639492039251,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1639492039251,
+          "stop" : 1639492040496,
+          "duration" : 1245
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "get .steps",
+      "time" : {
+        "start" : 1639492040496,
+        "stop" : 1639492045045,
+        "duration" : 4549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://1uc3pve92e.execute-api.us-east-2.amazonaws.com/dev/users/v1/auth/login",
+      "time" : {
+        "start" : 1639492045044,
+        "stop" : 1639492045044,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST 200 https://9amkv81lo0.execute-api.us-east-2.amazonaws.com/dev/v1/audit/register",
+      "time" : {
+        "start" : 1639492045045,
+        "stop" : 1639492045045,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET 200 https://bfujfy7osa.execute-api.us-east-2.amazonaws.com/dev/DEALER/gmf/v1/notifications/leads?dealerId=410",
+      "time" : {
+        "start" : 1639492045045,
+        "stop" : 1639492045045,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://chevroletdigital-dev.accurate.com.br/simulacao",
+      "time" : {
+        "start" : 1639492045045,
+        "stop" : 1639492045045,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<ul.steps.no-resume.>** to contain **IDENTIFICAÇÃO**",
+      "time" : {
+        "start" : 1639492045045,
+        "stop" : 1639492045045,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "logoff",
+      "time" : {
+        "start" : 1639492045051
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "get #user",
+        "time" : {
+          "start" : 1639492045052,
+          "stop" : 1639492045210,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1639492045210,
+          "stop" : 1639492049718,
+          "duration" : 4508
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://pfe2o12sn8.execute-api.us-east-2.amazonaws.com/dev/DEALER/dealers/v1/watchDocs/parameters/accesses/profiles",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/manufacturers/years?modelYear=2021",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/directSalesTypes/PF/false/1",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/manufacturers?initialManufacturerYear=2021&finalManufacturerYear=2021&vehicleType=1",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://pfe2o12sn8.execute-api.us-east-2.amazonaws.com/dev/DEALER/dealers/v1/states",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/models/years?vehicleType=1",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1uc3pve92e.execute-api.us-east-2.amazonaws.com/dev/DEALER/users/v1/users/notifications/dealers/active?limitByType=1",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://pfe2o12sn8.execute-api.us-east-2.amazonaws.com/dev/DEALER/dealers/v1/dealers/parameters/profiles/commons",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/financeStructures/PF/false/1/false",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/dealer/view",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/parameters?&clientState=PI&plateState=PI&isEmployee=false&clientDocument=&vehicleTypeId=1",
+        "time" : {
+          "start" : 1639492049717,
+          "stop" : 1639492049717,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://pfe2o12sn8.execute-api.us-east-2.amazonaws.com/dev/DEALER/dealers/v1/dealers/parameters/profiles/commons",
+        "time" : {
+          "start" : 1639492049718,
+          "stop" : 1639492049718,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/parameters/insurances?vehicleTypeId=1&financeTypeId=1",
+        "time" : {
+          "start" : 1639492049718,
+          "stop" : 1639492049718,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 404 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/notifications?username=QA.GM.ACCURATE@GMAIL.COM&type=ALL_PLANS_UPDATED_SIMULATION&toRemove=true",
+        "time" : {
+          "start" : 1639492049718,
+          "stop" : 1639492049718,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/insurances/combos/parameters",
+        "time" : {
+          "start" : 1639492049718,
+          "stop" : 1639492049718,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://1hhh5wkyw6.execute-api.us-east-2.amazonaws.com/dev/DEALER/simulation/v1/simulation/models?manufacturerName=CHEVROLET&initialModelYear=2021&finalModelYear=2021&vehicleType=1",
+        "time" : {
+          "start" : 1639492049718,
+          "stop" : 1639492049718,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://chevroletdigital-dev.accurate.com.br/",
+        "time" : {
+          "start" : 1639492049718,
+          "stop" : 1639492049718,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get .title",
+        "time" : {
+          "start" : 1639492049718,
+          "stop" : 1639492049842,
+          "duration" : 124
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<div.title>** to contain **SEUS DADOS**",
+        "time" : {
+          "start" : 1639492049842,
+          "stop" : 1639492049842,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get .btn-danger",
+        "time" : {
+          "start" : 1639492049843,
+          "stop" : 1639492050077,
+          "duration" : 234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1639492050077,
+          "stop" : 1639492052368,
+          "duration" : 2291
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://pfe2o12sn8.execute-api.us-east-2.amazonaws.com/dev/DEALER/dealers/v1/dealers/parameters/profiles/commons",
+        "time" : {
+          "start" : 1639492052367,
+          "stop" : 1639492052367,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=477670770&t=pageview&_s=1&dl=https://chevroletdigital-dev.accurate.com.br/&ul=pt-br&de=UTF-8&dt=Chevrolet Digital&sd=24-bit&sr=1280x800&vp=1700x1025&je=0&_u=YEBAAEABAAAAAC\\x7e&jid=1847258079&gjid=26298600&cid=724832246.1639492051&tid=UA-148080034-2&_gid=239103959.1639492051&_r=1&gtm=2wgc10WT7JMV3&z=1332834156",
+        "time" : {
+          "start" : 1639492052367,
+          "stop" : 1639492052367,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=477670770&t=pageview&_s=1&dl=https://chevroletdigital-dev.accurate.com.br/&ul=pt-br&de=UTF-8&dt=Chevrolet Digital&sd=24-bit&sr=1280x800&vp=1700x1025&je=0&_u=YEDAAEABAAAAAC\\x7e&jid=729395631&gjid=1671260484&cid=724832246.1639492051&tid=[object Object]&_gid=239103959.1639492051&_r=1&gtm=2wgc10WT7JMV3&z=1942551707",
+        "time" : {
+          "start" : 1639492052368,
+          "stop" : 1639492052368,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 26,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "84becdc60a9777a1",
+      "name" : "video recording",
+      "source" : "84becdc60a9777a1.mp4",
+      "type" : "video/mp4",
+      "size" : 1507524
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 46,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login com o perfil Dealer e fazendo Logoff"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb888fd55530ac98.json",
+  "parameterValues" : [ ]
+}
