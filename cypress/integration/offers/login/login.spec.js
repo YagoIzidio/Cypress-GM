@@ -3,7 +3,7 @@
 import loc from '../../../support/locators'
 
 before(() => {
-	cy.task("queryDb", `DELETE FROM simulator.vehicle_color WHERE code ='ACC'`);
+	cy.task("queryDb", `DELETE FROM simulator.vehicle_color WHERE id ='23'`);
 })
 
 And(/^clico no menu lateral de cores$/, () => {
@@ -15,8 +15,8 @@ And(/^clico no menu lateral de cores$/, () => {
 
 And(/^preencho os campos para cadastrar uma nova cor$/, () => {
 
-	cy.get(':nth-child(1) > .undefined > .form-control').type('Amarelo mostarda teste9')
-	cy.get(':nth-child(2) > .undefined > .form-control').type('LL9')
+	cy.get(':nth-child(1) > .undefined > .form-control').type('Amarelo mostarda teste10')
+	cy.get(':nth-child(2) > .undefined > .form-control').type('LL10')
 	cy.get('[data-cy="newColorSubmitButton"]').click()
 	
 });
@@ -24,6 +24,6 @@ And(/^preencho os campos para cadastrar uma nova cor$/, () => {
 Then(/^confiro se a cor foi adicionada com sucesso$/, () => {
 
 	cy.get('.alert').should('contain', 'Cor salva com sucesso')
-	cy.get('.insuranceContent').should('contain', 'LL9')
+	cy.get('.insuranceContent').should('contain', 'LL10')
 
 });
