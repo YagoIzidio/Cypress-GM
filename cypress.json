@@ -4,9 +4,17 @@
   "viewportHeight":1025,
   "viewportWidth":1700,
   "defaultCommandTimeout":9000,
-    "projectId": "auuh4j",
+  "projectId": "auuh4j",
+  "testFiles": "**/*.feature",
+  
 
   "env": {
+
+      "db": {
+        "host": "127.0.0.1",
+        "user": "root",
+        "password": "yourpasswd"
+      },
       "zipCode": "64308-970",
       "vehicleModel": "360",
       "vehicleVersion": "2357",
@@ -77,6 +85,8 @@
       "vehicleMileage": "10000",
       "vehicleModelYear": "2020",
       "selectedVehicleManufacturerYear": "2020",
+      "cor": "Azul Marinho Teste",
+      "cod": "115",
       
       "userDealer": {
         "userName": "QA.GM.ACCURATE@GMAIL.COM",

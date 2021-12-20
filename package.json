@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --record --key f8c9731e-8b82-4c54-a120-4ed12d8f4e11",
-    "cy:log": "cypress run --record --key f8c9731e-8b82-4c54-a120-4ed12d8f4e11",
+    "cy:log": "cypress run",
     "cy:nav": "cypress open"
   },
   "keywords": [],
@@ -13,7 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.1.0",
-    "cypress-cucumber-preprocessor": "^4.3.0"
+    "cypress-cucumber-preprocessor": "^4.3.0",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   },
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.23.0",

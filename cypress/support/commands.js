@@ -18,3 +18,8 @@ Cypress.Commands.add('logoff', () => {
   cy.get(loc.LOGOFF.CLICK_LOGOFF).click()
 })
 
+Cypress.Commands.add("queryDb", (query) => {
+  cy.task("queryDb", query);
+});
+
+
