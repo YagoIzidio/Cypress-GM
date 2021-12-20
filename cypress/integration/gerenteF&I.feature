@@ -4,6 +4,11 @@ Feature: Login
 
     Scenario: Login com sucesso perfil Gerente F&I
     Given que acesso a pagina de login com minhas credenciais validas
+
+
+    
+
+
     
 
 
