@@ -3,7 +3,7 @@
 import loc from '../../../support/locators'
 
 before(() => {
-	cy.task("queryDb", `DELETE FROM simulator.vehicle_color WHERE code ='121'`);
+	cy.task("queryDb", `DELETE FROM simulator.vehicle_color WHERE code ='ACC'`);
 })
 
 And(/^clico no menu lateral de cores$/, () => {
