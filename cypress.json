@@ -11,9 +11,9 @@
   "env": {
 
       "db": {
-        "host": "127.0.0.1",
-        "user": "root",
-        "password": "yourpasswd"
+        "host": "simulator.c4newc1nii0l.us-east-2.rds.amazonaws.com",
+        "user": "accurate",
+        "password": "yVJWv02aDjLb"
       },
       "zipCode": "64308-970",
       "vehicleModel": "360",
